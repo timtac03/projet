@@ -1,13 +1,19 @@
 * {
   box-sizing: border-box;
 }
-html, body{
+body{
   font-family: 'libre_baskervilleregular';
-  scroll-behavior: smooth;
+  color: white;
 }
 img {
   max-width: 100%;
 }
 a{
   text-decoration: none;
+}
+h1{
+  font-family: 'medula_oneregular';
+  font-size: 3.125rem;
+  text-align: center;
+  padding:3.125rem;
 }

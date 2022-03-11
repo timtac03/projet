@@ -3,27 +3,19 @@
   color:white;
 }
 
-// Background header
-.header__background{
-  margin-top: 3.75rem;
-  background: no-repeat url(../assets/img/header.webp);
-  background-size:cover;
-  height: 60vh;
-  background-position:center;
-}
-
 // nav
 .header__nav{
   position: fixed;
   z-index: 999;
   top:0rem;
-  height: 3.75rem;
+  height: 8vh;
   width: 100%;
   background: url(../assets/img/background.webp);
-  box-shadow:0px 0px 20px black;
+  box-shadow:0px 5px 10px black;
   display: flex;
   align-items: center;
 }
+
 // nav bar
 .header__navBar{
   display: flex;
@@ -77,9 +69,9 @@
   display :flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align:center;
-  font-size: 2.8125rem;
-  margin-left: .625rem;
+  font-size:2.8125rem;
   height: 50vh;
   gap: .9375rem;
 }
