@@ -1,9 +1,14 @@
 * {
   box-sizing: border-box;
 }
+html,
+body {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "libre_baskervilleregular";
   color: white;
+  background: url(../assets/img/background.webp);
 }
 img {
   max-width: 100%;
