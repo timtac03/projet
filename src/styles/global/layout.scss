@@ -1,8 +1,9 @@
 * {
   box-sizing: border-box;
 }
-body{
+html, body{
   font-family: 'libre_baskervilleregular';
+  scroll-behavior: smooth;
 }
 img {
   max-width: 100%;
