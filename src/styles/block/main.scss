@@ -1,0 +1,14 @@
+// main
+
+// main article
+.main__article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0.9375rem;
+  line-height: 1.5625rem;
+}
+.main__articleSummary {
+  margin-bottom: 0.625rem;
+}

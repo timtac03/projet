@@ -1,164 +1,282 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.scss">
-  <title>The legend of Zelda : Breath of the Wild</title>
-</head>
-<body>
-  <header class="header">
-    <nav class="header__nav">
-      <div class="header__navBar">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
-        <h3>Zelda Breath of the Wild</h3>
-        <img src="./assets/img/nintendo.svg" alt="Nintendo" loading="lazy"/>
-      </div>
-      <div id="nav__links" class="header__navLinks header__navClose">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.scss" />
+    <title>The legend of Zelda : Breath of the Wild</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <div class="header__navBar">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"
+            />
+          </svg>
+          <h3>Zelda Breath of the Wild</h3>
+          <img src="./assets/img/nintendo.svg" alt="Nintendo" loading="lazy" />
+        </div>
+        <div id="nav__links" class="header__navLinks header__navClose">
+          <div>
+            <h2>Menu</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+              />
+            </svg>
+          </div>
+          <div>
+            <a class="header__linksLink" href="#fonc">Fonctionnalités</a>
+            <a class="header__linksLink" href="#monde">Découvrir ce monde</a>
+            <a class="header__linksLink" href="#diff"
+              >Faire face aux difficultés</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="container__background"></div>
+      <main class="main">
+        <h1 id="fonc">Fonctionnalités</h1>
+        <article class="main__article">
+          <h2>Ouvrez les yeux</h2>
+          <p class="main__articleSummary">
+            Un royaume disparu. Des souvenirs effacés. Après un sommeil de cent
+            ans, Link s’éveille seul dans un monde qu’il ne reconnaît pas. Le
+            légendaire héros se lance alors à la découverte d'une vaste et
+            dangereuse contrée pour recouvrer la mémoire avant qu'Hyrule ne soit
+            à jamais perdu.
+          </p>
+          <p>
+            Armé seulement de ce qu’il déniche dans la nature, Link doit trouver
+            les ressources dont il a besoin pour survivre, et surtout, les
+            réponses à ses questions.
+          </p>
+        </article>
+        <article class="main__article">
+          <div>
+            <img
+              src="./assets/img/sheikah.webp"
+              loading="lazy"
+              alt="Tablette Sheikah"
+            />
+          </div>
+          <div>
+            <h2>Tablette Sheikah</h2>
+            <p>
+              Link n'a aucun souvenir de cette mystérieuse tablette au centre
+              lumineux, et pourtant, elle lui semble familière...
+            </p>
+          </div>
+        </article>
+        <section class="main__section">
+          <div>
+            <img src="./assets/img/carte.webp" loading="lazy" alt="Carte" />
+            <h3>Explorez Hyrule</h3>
+            <p>
+              La tablette Sheikah est dotée d’une carte d’Hyrule pour aider Link
+              dans son aventure. Elle possède également une longue-vue
+              permettant d’examiner de loin les endroits intéressants.
+            </p>
+          </div>
+          <div>
+            <img src="./assets/img/module.webp" loading="lazy" alt="Module" />
+            <h3>Téléchargez des Modules</h3>
+            <p>
+              Dans certains Sanctuaires, Link peut télécharger des Modules afin
+              d'apprendre de nouvelles capacités qui l’aideront à résoudre des
+              casse-têtes et à accéder à des endroits secrets.
+            </p>
+          </div>
+          <div>
+            <img
+              src="./assets/img/inventaire.webp"
+              loading="lazy"
+              alt="Inventaire"
+            />
+            <h3>Gérez votre périple</h3>
+            <p>
+              Link peut se servir de la tablette Sheikah pour gérer toutes les
+              facettes de son aventure, par exemple en utilisant la sacoche pour
+              organiser ses objets, et en faisant le suivi de ses quêtes avec le
+              journal.
+            </p>
+          </div>
+        </section>
+        <h1 id="monde">Découvrir ce monde</h1>
+        <section class="main__section">
+          <p>
+            Explorez les paysages d’Hyrule comme bon vous semble. Grimpez
+            jusqu’au sommet des tours et des montagnes pour trouver de nouvelles
+            destinations, puis choisissez votre propre chemin et plongez au cœur
+            des contrées sauvages.
+          </p>
+          <div>
+            <div>
+              <img src="./assets/img/tour.webp" loading="lazy" alt="Tour" />
+              <h3>Tours</h3>
+              <p>
+                Avant de s’aventurer dans des régions inconnues, Link peut
+                grimper jusqu’au sommet d’une tour pour prendre connaissance des
+                environs.
+              </p>
+            </div>
+            <div>
+              <img
+                src="./assets/img/sanctuaire.webp"
+                loading="lazy"
+                alt="Sanctuaire"
+              />
+              <h3>Sanctuaires</h3>
+              <p>
+                Il existe plus de 100 Sanctuaires dispersés à travers Hyrule.
+                Link peut y résoudre des casse-têtes pour prouver sa bravoure et
+                obtenir des récompenses dans le jeu.
+              </p>
+            </div>
+            <div>
+              <img
+                src="./assets/img/village.webp"
+                loading="lazy"
+                alt="Village"
+              />
+              <h3>Villages</h3>
+              <p>
+                Link visitera plusieurs villages durant son périple, chacun
+                ayant une atmosphère et un aspect différents.
+              </p>
+            </div>
+            <div>
+              <img src="./assets/img/relais.webp" loading="lazy" alt="Relais" />
+              <h3>Relais</h3>
+              <p>
+                Les relais ne servent pas qu’à loger les chevaux. Link peut s’y
+                reposer afin de récupérer des cœurs, ou y préparer de la
+                nourriture et des remèdes avant sa prochaine expédition.
+              </p>
+            </div>
+          </div>
+        </section>
         <div>
-          <h2>Menu</h2>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+          <div></div>
+          <img src="./assets/img/prodiges.webp" loading="lazy" alt="Prodiges" />
+          <div></div>
+        </div>
+        <h1 id="diff">Faire face aux difficultés</h1>
+        <article class="main__article">
+          <div>
+            <h2>Par terre, mer et air</h2>
+            <p>
+              Link aura besoin d’aide pour voyager à travers un monde aussi
+              vaste. Heureusement, plusieurs moyens de transport s’offrent à
+              lui. Par exemple, il pourra galoper à dos de cheval, naviguer sur
+              les eaux d’Hyrule à l’aide d’un radeau ou glisser le long des
+              montagnes enneigées sur son bouclier. Et grâce à son parapente,
+              Link pourra même voguer sur les vents au milieu des cieux.
+            </p>
+          </div>
+          <div>
+            <img src="./assets/img/cheval.webp" loading="lazy" alt="Cheval" />
+          </div>
+        </article>
+        <article class="main__article">
+          <h2>Branle-bas de combat</h2>
+          <p>
+            À son réveil, Link est sans arme et sans défense. Mais grâce à son
+            intelligence et à sa débrouillardise, il dénichera plusieurs armes à
+            utiliser au combat. Par contre, ces objets se dégraderont avec le
+            temps; Link devra donc garder l'œil ouvert pour les remplacer le
+            moment venu.
+          </p>
+          <p>
+            Évidemment, l'issue des combats ne dépend pas seulement des armes
+            utilisées. Link devra aussi apprendre une variété de techniques
+            différentes, telles que les tirs d'arc en haut vol et les explosifs,
+            afin de vaincre ses adversaires.
+          </p>
+          <img src="./assets/img/armes.webp" loading="lazy" alt="Armes" />
+        </article>
+        <article class="main__article">
+          <div>
+            <img src="./assets/img/chasse.webp" loading="lazy" alt="Chasse" />
+          </div>
+          <div>
+            <h2>Chasse et cueillette</h2>
+            <p>
+              Link devra manger à sa faim s’il souhaite sauver Hyrule. La chasse
+              aux animaux, la cueillette de fruits et des légumes et le pillage
+              de camps ennemis sont d'excellentes solutions pour trouver de la
+              nourriture. Link pourra même apprendre à concocter des recettes
+              pour relever le goût des aliments! En plus d’être savoureux, ces
+              mets préparés soigneront les blessures de Link et augmenteront
+              certaines de ses statistiques.
+            </p>
+          </div>
+        </article>
+        <article class="main__article">
+          <div>
+            <h2>Tenues de saison</h2>
+            <p>
+              Les vêtements de Link ne servent pas qu'à lui donner fière allure
+              : ils peuvent aussi l’aider à se protéger contre les intempéries
+              et les attaques ennemies. Link pourra dénicher toutes sortes de
+              tenues, des vêtements de neige aux armures de métal. Mais
+              attention! S'il porte du métal durant un orage, il risque de
+              s'attirer les foudres...
+            </p>
+          </div>
+          <div>
+            <img src="./assets/img/tenues.webp" loading="lazy" alt="Tenues" />
+          </div>
+        </article>
+        <a
+          href="https://www.amazon.fr/Legend-Zelda-Breath-Wild/dp/B01MUAFFPA?th=1"
+        >
+          <h2>Acheter dès maintenant</h2>
+          <div>
+            <img src="./assets/img/jeu.webp" loading="lazy" alt="Jeu" />
+            <img
+              src="./assets/img/switch.webp"
+              loading="lazy"
+              alt="Nintendo Switch"
+            />
+          </div>
+          <p>Jeu et console vendu séparément</p>
+        </a>
+      </main>
+      <footer class="footer">
+        <div>
+          <a href="https://www.esrb.org/ratings-guide/fr/">
+            <img src="./assets/img/e10.svg" loading="lazy" alt="E 10+" />
+            <p>
+              Violence fictive, Thèmes légèrement suggestifs, Usage d’alcool
+            </p>
+          </a>
+          <a href="https://www.esrb.org/EPCConfirm/891/">
+            <img src="./assets/img/esrb.svg" loading="lazy" alt="ESRB" />
+          </a>
         </div>
         <div>
-          <a class="header__linksLink" href="#fonc">Fonctionnalités</a>
-          <a class="header__linksLink" href="#monde">Découvrir le monde</a>
-          <a class="header__linksLink" href="#diff">Faire face aux difficultés</a>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <div class="container">
-    <div class="container__background"></div>
-  <main>
-    <h1 id="fonc">Fonctionnalités</h1>
-    <article>
-      <h2>Ouvrez les yeux</h2>
-      <p>Un royaume disparu. Des souvenirs effacés. Après un sommeil de cent ans, Link s’éveille seul dans un monde qu’il ne reconnaît pas. Le légendaire héros se lance alors à la découverte d'une vaste et dangereuse contrée pour recouvrer la mémoire avant qu'Hyrule ne soit à jamais perdu.</p>
-      <p>Armé seulement de ce qu’il déniche dans la nature, Link doit trouver les ressources dont il a besoin pour survivre, et surtout, les réponses à ses questions.</p>
-    </article>
-    <article>
-      <div>
-        <img src="./assets/img/sheikah.webp" loading="lazy" alt="Tablette Sheikah">
-      </div>
-      <div>
-       <h2>Tablette Sheikah</h2>
-       <p>Link n'a aucun souvenir de cette mystérieuse tablette au centre lumineux, et pourtant, elle lui semble familière...</p>
-      </div>
-    </article>
-    <section>
-      <div>
-        <img src="./assets/img/carte.webp" loading="lazy" alt="Carte">
-        <h3>Explorez Hyrule</h3>
-        <p>La tablette Sheikah est dotée d’une carte d’Hyrule pour aider Link dans son aventure. Elle possède également une longue-vue permettant d’examiner de loin les endroits intéressants.</p>
-      </div>
-      <div>
-        <img src="./assets/img/module.webp" loading="lazy" alt="Module">
-        <h3>Téléchargez des Modules</h3>
-        <p>Dans certains Sanctuaires, Link peut télécharger des Modules afin d'apprendre de nouvelles capacités qui l’aideront à résoudre des casse-têtes et à accéder à des endroits secrets.</p>
-      </div>
-      <div>
-        <img src="./assets/img/inventaire.webp" loading="lazy" alt="Inventaire">
-        <h3>Gérez votre périple</h3>
-        <p>Link peut se servir de la tablette Sheikah pour gérer toutes les facettes de son aventure, par exemple en utilisant la sacoche pour organiser ses objets, et en faisant le suivi de ses quêtes avec le journal.</p>
-      </div>
-    </section>
-    <h1 id="monde">Découvrez le vaste monde qui vous entoure</h1>
-    <section>
-      <p>Explorez les paysages d’Hyrule comme bon vous semble. Grimpez jusqu’au sommet des tours et des montagnes pour trouver de nouvelles destinations, puis choisissez votre propre chemin et plongez au cœur des contrées sauvages.</p>
-      <div>
-        <div>
-          <img src="./assets/img/tour.webp" loading="lazy" alt="Tour">
-          <h3>Tours</h3>
-          <p>Avant de s’aventurer dans des régions inconnues, Link peut grimper jusqu’au sommet d’une tour pour prendre connaissance des environs.</p>
+          <a href="#">Politique de confidentialité</a>
+          <span> | </span>
+          <a href="#">Conditions d’utilisation</a>
+          <span> | </span>
+          <a href="#">Préférences relatives aux fichiers témoins</a>
         </div>
         <div>
-          <img src="./assets/img/sanctuaire.webp" loading="lazy" alt="Sanctuaire">
-          <h3>Sanctuaires</h3>
-          <p>Il existe plus de 100 Sanctuaires dispersés à travers Hyrule. Link peut y résoudre des casse-têtes pour prouver sa bravoure et obtenir des récompenses dans le jeu.</p>
+          <p>
+            @ Nintendo. The Legend of Zelda, Wii U, et Nintendo Switch sont des
+            marques de commerce de Nintendo.
+          </p>
         </div>
-        <div>
-          <img src="./assets/img/village.webp" loading="lazy" alt="Village">
-          <h3>Villages</h3>
-          <p>Link visitera plusieurs villages durant son périple, chacun ayant une atmosphère et un aspect différents.</p>
-        </div>
-        <div>
-          <img src="./assets/img/relais.webp" loading="lazy" alt="Relais">
-          <h3>Relais</h3>
-          <p>Les relais ne servent pas qu’à loger les chevaux. Link peut s’y reposer afin de récupérer des cœurs, ou y préparer de la nourriture et des remèdes avant sa prochaine expédition.</p>
-        </div>
-      </div>
-    </section>
-    <div>
-      <div></div>
-      <img src="./assets/img/prodiges.webp" loading="lazy" alt="Prodiges">
-      <div></div>
+      </footer>
     </div>
-    <h1 id="diff">Faire face aux difficultés</h1>
-    <article>
-      <div>
-        <h2>Par terre, mer et air</h2>
-        <p>Link aura besoin d’aide pour voyager à travers un monde aussi vaste. Heureusement, plusieurs moyens de transport s’offrent à lui. Par exemple, il pourra galoper à dos de cheval, naviguer sur les eaux d’Hyrule à l’aide d’un radeau ou glisser le long des montagnes enneigées sur son bouclier. Et grâce à son parapente, Link pourra même voguer sur les vents au milieu des cieux.</p>
-      </div>
-      <div>
-        <img src="./assets/img/cheval.webp"loading="lazy" alt="Cheval">
-      </div>
-    </article>
-    <article>
-      <h2>Branle-bas de combat</h2>
-      <p>À son réveil, Link est sans arme et sans défense. Mais grâce à son intelligence et à sa débrouillardise, il dénichera plusieurs armes à utiliser au combat. Par contre, ces objets se dégraderont avec le temps; Link devra donc garder l'œil ouvert pour les remplacer le moment venu.</p>
-      <p>Évidemment, l'issue des combats ne dépend pas seulement des armes utilisées. Link devra aussi apprendre une variété de techniques différentes, telles que les tirs d'arc en haut vol et les explosifs, afin de vaincre ses adversaires.</p>
-      <img src="./assets/img/armes.webp" loading="lazy" alt="Armes">
-    </article>
-    <article>
-      <div>
-        <img src="./assets/img/chasse.webp" loading="lazy" alt="Chasse">
-      </div>
-      <div>
-        <h2>Chasse et cueillette</h2>
-        <p>Link devra manger à sa faim s’il souhaite sauver Hyrule. La chasse aux animaux, la cueillette de fruits et des légumes et le pillage de camps ennemis sont d'excellentes solutions pour trouver de la nourriture. Link pourra même apprendre à concocter des recettes pour relever le goût des aliments! En plus d’être savoureux, ces mets préparés soigneront les blessures de Link et augmenteront certaines de ses statistiques.</p>
-      </div>
-    </article>
-    <article>
-      <div>
-        <h2>Tenues de saison</h2>
-        <p>Les vêtements de Link ne servent pas qu'à lui donner fière allure : ils peuvent aussi l’aider à se protéger contre les intempéries et les attaques ennemies. Link pourra dénicher toutes sortes de tenues, des vêtements de neige aux armures de métal. Mais attention! S'il porte du métal durant un orage, il risque de s'attirer les foudres...</p>
-      </div>
-      <div>
-        <img src="./assets/img/tenues.webp" loading="lazy" alt="Tenues">
-      </div>
-    </article>
-    <a href="https://www.amazon.fr/Legend-Zelda-Breath-Wild/dp/B01MUAFFPA?th=1">
-      <h2>Acheter dès maintenant</h2>
-      <div>
-        <img src="./assets/img/jeu.webp" loading="lazy" alt="Jeu">
-        <img src="./assets/img/switch.webp" loading="lazy" alt="Nintendo Switch">
-      </div>
-      <p>Jeu et console vendu séparément</p>
-    </a>
-  </main>
-  <footer>
-    <div>
-      <a href="https://www.esrb.org/ratings-guide/fr/">
-        <img src="./assets/img/e10.svg" loading="lazy" alt="E 10+">
-        <p>Violence fictive, Thèmes légèrement suggestifs, Usage d’alcool</p>
-      </a>
-      <a href="https://www.esrb.org/EPCConfirm/891/">
-        <img src="./assets/img/esrb.svg" loading="lazy"alt="ESRB">
-      </a>
-    </div>
-    <div>
-      <a href="#">Politique de confidentialité</a>
-      <span> | </span>
-      <a href="#">Conditions d’utilisation</a>
-      <span> | </span>
-      <a href="#">Préférences relatives aux fichiers témoins</a>
-    </div>
-    <div>
-      <p>@  Nintendo. The Legend of Zelda, Wii U, et Nintendo Switch sont des marques de commerce de Nintendo.</p>
-    </div>
-  </footer>
-  </div>
-</body>
-<script src="./assets/js/app.js"></script>
+  </body>
+  <script src="./assets/js/app.js"></script>
 </html>

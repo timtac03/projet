@@ -13,18 +13,14 @@ function $$(selector, el) {
   return Array.prototype.slice.call(el.querySelectorAll(selector));
 }
 
-
-window.addEventListener('DOMContentLoaded', function () {
-  
-  $('.header__navBar svg').addEventListener('click', function(){
-    $('#nav__links').classList.remove('header__navClose');
-    $('#nav__links').classList.add('header__navOpen');
+window.addEventListener("DOMContentLoaded", function () {
+  $(".header__navBar svg").addEventListener("click", function () {
+    $("#nav__links").classList.remove("header__navClose");
+    $("#nav__links").classList.add("header__navOpen");
   });
 
-  $('#nav__links svg').addEventListener('click', function(){
-    $('#nav__links').classList.add('header__navClose');
-    $('#nav__links').classList.remove('header__navOpen');
+  $("#nav__links svg").addEventListener("click", function () {
+    $("#nav__links").classList.add("header__navClose");
+    $("#nav__links").classList.remove("header__navOpen");
   });
-
-
 });
