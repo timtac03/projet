@@ -24,33 +24,59 @@
   display: flex;
   align-items: center;
 }
+// nav bar
 .nav__bar{
   display: flex;
   justify-content: space-around;
   width: 100%;
   align-items: center;
 }
-.bar__burger{
+.nav__bar>svg{
   fill: white;
   height: 1.875rem;
 }
-.bar__txt{
+.nav__bar>h3{
   font-size: 1.875rem;
 }
-.bar__nintendo{
+.nav__bar>img{
   height: 1.25rem;
 }
-// .nav__close{
+
+// nav links
+// .nav__close--close{
 //   display:none;
 // }
 .nav__links{
   position: fixed;
   top: 0%;
   left: 0%;
-  height: 100vh;
+  height: 60vh;
   width: 60%;
   box-shadow: 5px 0px 10px black;
   background: url(../assets/img/background.webp);
   display: flex;
   flex-direction: column;
+  padding: .625rem;
+}
+.nav__links>div:first-child{
+  display :flex;
+  justify-content: space-between;
+  font-size: 3.125rem;
+  height:5%;
+}
+.nav__links svg{
+  fill: white;
+  height: 3.125rem;
+}
+.nav__links>div:last-child{
+  display :flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2.8125rem;
+  margin-left: .625rem;
+  height: 95%;
+  gap: .625rem;
+}
+.links__link{
+  color: white;
 }
