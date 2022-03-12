@@ -17,7 +17,7 @@
   align-items: center;
   text-align: center;
   padding: 0.9375rem;
-  line-height: 1.5625rem;
+  line-height: 1.875rem;
 }
 .main__article--noPadding {
   padding: 0;
@@ -31,9 +31,9 @@
 .main__articleBackground {
   background: no-repeat url(../assets/img/sheikah-bg.webp);
   background-position: center;
+  background-size: 100%;
   margin-bottom: 2.1875rem;
   position: relative;
-  width: 24.375rem;
 }
 .main__articleBackground::before {
   content: "";
@@ -55,6 +55,22 @@
   padding: 0 0.9375rem 0.9375rem;
   margin-bottom: 2.1875rem;
 }
+.main__articleDifficulty {
+  margin-bottom: 0.625rem;
+  text-align: left;
+}
+.main__articleDifficulty h2 {
+  text-align: left;
+}
+.main__articleDifficulty p:last-of-type {
+  margin-top: 0.625rem;
+}
+.main__articleDifficulty--Inverse {
+  text-align: right;
+}
+.main__articleDifficulty--Inverse h2 {
+  text-align: right;
+}
 
 // section
 .main__section {
@@ -63,9 +79,25 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  line-height: 1.5625rem;
+  line-height: 1.875rem;
   text-align: center;
 }
 .main__sectionExplanation {
   margin-bottom: 2.5rem;
+}
+
+// prodigies
+.main__prodigies {
+  transform: skew(-5deg) rotate(-5deg);
+  width: 99.8%;
+}
+.main__prodigiesBanner {
+  background: url(../assets/img/divider-content.png);
+  height: 1.875rem;
+  margin: 1.25rem 0;
+}
+.main__prodigiesImage {
+  background-color: #f5d9ad;
+  display: flex;
+  justify-content: center;
 }

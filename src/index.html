@@ -159,15 +159,17 @@
           </div>
         </div>
       </section>
-      <div class="main__prodiges">
-        <div class="main__prodigesBanner"></div>
-        <img src="./assets/img/prodiges.webp" loading="lazy" alt="Prodiges" />
-        <div class="main__prodigesBanner"></div>
+      <div class="main__prodigies">
+        <div class="main__prodigiesBanner"></div>
+        <div class="main__prodigiesImage">
+          <img src="./assets/img/prodiges.webp" loading="lazy" alt="Prodiges" />
+        </div>
+        <div class="main__prodigiesBanner"></div>
       </div>
       <div id="diff"></div>
       <h1>Faire face aux difficultés</h1>
       <article class="main__article">
-        <div>
+        <div class="main__articleDifficulty">
           <h2>Par terre, mer et air</h2>
           <p>
             Link aura besoin d’aide pour voyager à travers un monde aussi vaste.
@@ -178,32 +180,33 @@
             même voguer sur les vents au milieu des cieux.
           </p>
         </div>
-        <div>
+        <div class="main__articleImage">
           <img src="./assets/img/cheval.webp" loading="lazy" alt="Cheval" />
         </div>
       </article>
       <article class="main__article">
-        <h2>Branle-bas de combat</h2>
-        <p>
-          À son réveil, Link est sans arme et sans défense. Mais grâce à son
-          intelligence et à sa débrouillardise, il dénichera plusieurs armes à
-          utiliser au combat. Par contre, ces objets se dégraderont avec le
-          temps; Link devra donc garder l'œil ouvert pour les remplacer le
-          moment venu.
-        </p>
-        <p>
-          Évidemment, l'issue des combats ne dépend pas seulement des armes
-          utilisées. Link devra aussi apprendre une variété de techniques
-          différentes, telles que les tirs d'arc en haut vol et les explosifs,
-          afin de vaincre ses adversaires.
-        </p>
-        <img src="./assets/img/armes.webp" loading="lazy" alt="Armes" />
+        <div class="main__articleDifficulty main__articleDifficulty--Inverse">
+          <h2>Branle-bas de combat</h2>
+          <p>
+            À son réveil, Link est sans arme et sans défense. Mais grâce à son
+            intelligence et à sa débrouillardise, il dénichera plusieurs armes à
+            utiliser au combat. Par contre, ces objets se dégraderont avec le
+            temps; Link devra donc garder l'œil ouvert pour les remplacer le
+            moment venu.
+          </p>
+          <p>
+            Évidemment, l'issue des combats ne dépend pas seulement des armes
+            utilisées. Link devra aussi apprendre une variété de techniques
+            différentes, telles que les tirs d'arc en haut vol et les explosifs,
+            afin de vaincre ses adversaires.
+          </p>
+        </div>
+        <div class="main__articleImage main__articleImage--Inverse">
+          <img src="./assets/img/armes.webp" loading="lazy" alt="Armes" />
+        </div>
       </article>
       <article class="main__article">
-        <div>
-          <img src="./assets/img/chasse.webp" loading="lazy" alt="Chasse" />
-        </div>
-        <div>
+        <div class="main__articleDifficulty">
           <h2>Chasse et cueillette</h2>
           <p>
             Link devra manger à sa faim s’il souhaite sauver Hyrule. La chasse
@@ -215,9 +218,12 @@
             de ses statistiques.
           </p>
         </div>
+        <div class="main__articleImage">
+          <img src="./assets/img/chasse.webp" loading="lazy" alt="Chasse" />
+        </div>
       </article>
       <article class="main__article">
-        <div>
+        <div class="main__articleDifficulty main__articleDifficulty--Inverse">
           <h2>Tenues de saison</h2>
           <p>
             Les vêtements de Link ne servent pas qu'à lui donner fière allure :
@@ -228,10 +234,12 @@
             foudres...
           </p>
         </div>
-        <div>
+        <div class="main__articleImage main__articleImage--Inverse">
           <img src="./assets/img/tenues.webp" loading="lazy" alt="Tenues" />
         </div>
       </article>
+    </main>
+    <footer class="footer">
       <a
         href="https://www.amazon.fr/Legend-Zelda-Breath-Wild/dp/B01MUAFFPA?th=1"
       >
@@ -246,8 +254,6 @@
         </div>
         <p>Jeu et console vendu séparément</p>
       </a>
-    </main>
-    <footer class="footer">
       <div>
         <a href="https://www.esrb.org/ratings-guide/fr/">
           <img src="./assets/img/e10.svg" loading="lazy" alt="E 10+" />
