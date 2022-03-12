@@ -1,14 +1,7 @@
+// header
 .header {
   font-family: "medula_oneregular";
   color: white;
-}
-// Background header
-.header__background {
-  background: no-repeat url(../assets/img/header.webp);
-  background-size: cover;
-  height: 60vh;
-  background-position: center;
-  margin-top: 3.125rem;
 }
 
 // nav
@@ -35,7 +28,7 @@
   fill: white;
   height: 1.875rem;
 }
-.header__navBar > h3 {
+.header__navTitle {
   font-size: 1.875rem;
 }
 .header__navBar > img {
@@ -43,11 +36,11 @@
 }
 
 // nav links
-.header__navClose {
+.header__navLinks--Close {
   transform: translateX(-120%);
   transition: transform 0.5s ease-in-out;
 }
-.header__navOpen {
+.header__navLinks--Open {
   transform: translateX(0%);
   transition: transform 0.5s ease-in-out;
 }
@@ -86,4 +79,13 @@
 }
 .header__linksLink {
   color: white;
+}
+
+// Background
+.header__background {
+  background: no-repeat url(../assets/img/header.webp);
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+  margin-top: 3.125rem;
 }

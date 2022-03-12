@@ -15,12 +15,12 @@ function $$(selector, el) {
 
 window.addEventListener("DOMContentLoaded", function () {
   $(".header__navBar svg").addEventListener("click", function () {
-    $("#nav__links").classList.remove("header__navClose");
-    $("#nav__links").classList.add("header__navOpen");
+    $("#nav__links").classList.remove("header__navLinks--Close");
+    $("#nav__links").classList.add("header__navLinks--Open");
   });
 
   $("#nav__links svg").addEventListener("click", function () {
-    $("#nav__links").classList.add("header__navClose");
-    $("#nav__links").classList.remove("header__navOpen");
+    $("#nav__links").classList.add("header__navLinks--Close");
+    $("#nav__links").classList.remove("header__navLinks--Open");
   });
 });
