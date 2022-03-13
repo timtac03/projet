@@ -88,4 +88,13 @@
   height: 60vh;
   background-position: center;
   margin-top: 3.125rem;
+  position: relative;
+}
+.header__backgroundBanner {
+  position: absolute;
+  background: url(../assets/img/divider-content-brown.webp);
+  height: 1.75rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
