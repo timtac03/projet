@@ -120,17 +120,17 @@
   line-height: 1.875rem;
   text-align: center;
 }
+.main__sectionTips {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
 .main__sectionBuildings {
   overflow-x: hidden;
 }
 .main__sectionBuilding {
   transform: translateX(0%);
   opacity: 1;
-  transition: opacity 2s, transform 1s ease-in-out;
-}
-.main__sectionTips {
-  opacity: 1;
-  transition: opacity 2s ease-in-out;
+  transition: opacity 3s, transform 1s ease-in-out;
 }
 .main__sectionCenter {
   opacity: 0;
