@@ -14,7 +14,7 @@
   background: url(../assets/img/background.webp);
   box-shadow: 0px 0px 9px 6px black;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 // nav bar
@@ -32,7 +32,7 @@
   font-size: 1.875rem;
   color: white;
 }
-.header__navBar > img {
+.header__navBar img {
   height: 1.25rem;
 }
 
@@ -98,4 +98,33 @@
   bottom: 0;
   left: 0;
   width: 100%;
+}
+@include medium {
+  .header__navBar > svg,
+  .header__navTitle,
+  .header__navLinks div:first-child {
+    display: none;
+  }
+  .header__nav {
+    gap: 0.9375rem;
+  }
+  .header__navBar {
+    width: auto;
+  }
+  .header__navLinks--Close {
+    transform: translateX(0%);
+  }
+  .header__navLinks {
+    position: static;
+    width: auto;
+    height: 100%;
+  }
+  .header__navLinks div:last-child {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 30px;
+    gap: 1.5625rem;
+  }
 }
