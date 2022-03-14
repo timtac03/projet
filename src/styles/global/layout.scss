@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
+// body et html
 html,
 body {
   scroll-behavior: smooth;
-  // overflow-x: hidden;
 }
 html {
   font-family: "libre_baskervilleregular";
@@ -34,12 +35,17 @@ body {
   font-size: 0.875rem;
 }
 
+// images
 img {
   max-width: 100%;
 }
+
+// liens
 a {
   text-decoration: none;
 }
+
+// titre
 h1 {
   font-family: "medula_oneregular";
   font-size: 4.0625rem;
@@ -64,6 +70,10 @@ h3:not(.header__navTitle) {
   margin: 0.9375rem 0;
   color: #f5d9ad;
 }
+strong {
+  font-weight: bold;
+  color: #f5d9ad;
+}
 @include small {
   h1 img {
     display: block;
@@ -71,11 +81,13 @@ h3:not(.header__navTitle) {
     margin: 0 0.9375rem;
   }
 }
+
 @include medium {
   body {
     font-size: 1rem;
   }
 }
+
 @include large {
   h1 {
     font-size: 5rem;
