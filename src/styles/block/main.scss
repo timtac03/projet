@@ -13,25 +13,7 @@
   flex-direction: column;
   align-items: center;
 }
-.main__articleUnderline::after {
-  height: 1.25rem;
-  display: block;
-  content: "";
-  border-bottom: solid 0.1875rem #f5d9ad;
-  transform: scaleX(0);
-  transform-origin: 0;
-  transition: transform 1s ease-in-out;
-  transition-delay: 200ms;
-}
-.main__articleUnderline2::after {
-  transform: scaleX(1);
-}
-.main__articleUnderline--right::after {
-  transform-origin: right;
-}
-.main__articleUnderline--center::after {
-  transform-origin: center;
-}
+
 // article
 
 .main__article {
@@ -49,6 +31,25 @@
 }
 .main__article--noPadding {
   padding: 0;
+}
+.main__articleUnderline::after {
+  height: 1.25rem;
+  display: block;
+  content: "";
+  border-bottom: solid 0.1875rem #f5d9ad;
+  transform: scaleX(0);
+  transform-origin: 0;
+  transition: transform 1s ease-in-out;
+  transition-delay: 200ms;
+}
+.main__articleUnderline--right::after {
+  transform-origin: right;
+}
+.main__articleUnderline--center::after {
+  transform-origin: center;
+}
+.main__articleUnderline2::after {
+  transform: scaleX(1);
 }
 .main__articleSummary {
   margin-bottom: 0.9375rem;
@@ -82,8 +83,9 @@
   flex-direction: column;
 }
 .main__articleTablet h2 {
-  width: 50%;
+  width: 70%;
   align-self: center;
+  line-height: 2.5rem;
 }
 .main__articleTablet p {
   padding: 0 0.9375rem 0.9375rem;
@@ -117,6 +119,29 @@
   justify-content: center;
   line-height: 1.875rem;
   text-align: center;
+}
+.main__sectionBuildings {
+  overflow-x: hidden;
+}
+.main__sectionBuilding {
+  transform: translateX(0%);
+  opacity: 1;
+  transition: opacity 3s, transform 1s ease-in-out;
+}
+.main__sectionTips {
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+}
+.main__sectionCenter {
+  opacity: 0;
+}
+.main__sectionLeft {
+  transform: translateX(-120%);
+  opacity: 0;
+}
+.main__sectionRight {
+  transform: translateX(200%);
+  opacity: 0;
 }
 .main__sectionExplanation {
   margin-bottom: 2.5rem;
@@ -154,7 +179,6 @@
     text-align: left;
     padding-left: 0.9375rem;
     width: 100%;
-    line-height: 2.5rem;
   }
   .main__articleDifficulty {
     width: 41.875rem;

@@ -37,5 +37,29 @@ window.addEventListener("DOMContentLoaded", function () {
         }
       }
     });
+
+    $$(".main__sectionTips").forEach((tip) => {
+      let targetTop = tip.offsetTop;
+      windowHeight = document.documentElement.clientHeight;
+      if (window.pageYOffset + windowHeight >= targetTop) {
+        tip.classList.remove("main__sectionCenter");
+      }
+    });
+
+    $$(".main__sectionBuilding:nth-child(odd)").forEach((build) => {
+      let targetTop = build.offsetTop;
+      windowHeight = document.documentElement.clientHeight;
+      if (window.pageYOffset + windowHeight >= targetTop) {
+        build.classList.remove("main__sectionLeft");
+      }
+    });
+
+    $$(".main__sectionBuilding:nth-child(even)").forEach((build) => {
+      let targetTop = build.offsetTop;
+      windowHeight = document.documentElement.clientHeight;
+      if (window.pageYOffset + windowHeight >= targetTop) {
+        build.classList.remove("main__sectionRight");
+      }
+    });
   });
 });
